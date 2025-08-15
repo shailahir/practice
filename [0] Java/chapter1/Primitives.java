@@ -55,6 +55,8 @@ public class Primitives {
 		
 		boolean bo1 = true;
 		System.out.println("bo1 - "+ bo1);
+		
+		System.out.println("isNan - "+ Double.isNaN(1/0)); // throws exception
 	}		
 	
 }
